@@ -1,4 +1,7 @@
-SELECT
-    *
+SELECT 
+    * 
 FROM
-    {{ source('source', 'dim_product') }}
+    {{ source('source', 'dim_product') }}    
+
+
+

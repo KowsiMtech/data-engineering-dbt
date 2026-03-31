@@ -34,3 +34,15 @@ models:
     # Config indicated by + and applies to all files under models/example/
     bronze:
       +materialized: table
+      +schema: bronze
+    silver:
+      +materialized: view
+      +schema: silver
+    gold:
+      +materialized: view
+      +schema: gold
+
+seeds:
+  dbt_tutorial:
+    # Config indicated by + and applies to all files under seeds/
+    +schema: seeds
