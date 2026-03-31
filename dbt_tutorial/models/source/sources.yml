@@ -9,9 +9,9 @@ sources:
       - name: dim_product
       - name: dim_date
       - name: dim_store
+      - name: items
 
 
   - name: stripe
     tables:
       - name: payments
-

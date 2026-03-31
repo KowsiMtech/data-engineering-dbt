@@ -1,4 +1,8 @@
-SELECT
-    *
+
+SELECT 
+    * 
 FROM
-    {{ source('source', 'fact_sales') }}
+    {{ source('source', 'fact_sales') }}    
+
+
+
