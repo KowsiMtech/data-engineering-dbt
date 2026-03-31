@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.sql": "jinja-sql",
+        "*.yml": "jinja-yaml"
+    },
+    "dbt.dbtPythonPathOverride": "C:\\KowsiDhina\\Data Engineer\\Project\\Additional project\\DBT Tutorial\\.venv\\Scripts\\python.exe",
+    "dbt.perspectiveTheme": "Vintage"
+}
